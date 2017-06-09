@@ -1,0 +1,24 @@
+搭建开发环境步骤 for linux & python 2.7
+1) sudo apt-get install python-virtualenv
+
+创建虚拟环境；
+2）virtualenv flask 
+虚拟环境将在flask 目录中
+
+3）你可以先激活再使用，或者直接通过下面的方式安装
+source flask/bin/activate
+然后通过 pip install 安装下面的插件
+退出虚拟环境 deactivate 
+或者直接通过下面的方式安装 见 install_extends.sh
+$ flask/bin/pip install flask
+$ flask/bin/pip install flask-login
+$ flask/bin/pip install flask-openid
+$ flask/bin/pip install flask-mail
+$ flask/bin/pip install flask-sqlalchemy
+$ flask/bin/pip install sqlalchemy-migrate
+$ flask/bin/pip install flask-whooshalchemy
+$ flask/bin/pip install flask-wtf
+$ flask/bin/pip install flask-babel
+$ flask/bin/pip install guess_language
+$ flask/bin/pip install flipflop
+$ flask/bin/pip install coverage
